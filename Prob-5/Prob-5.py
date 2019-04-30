@@ -2,10 +2,13 @@
 #   Programming Assignment 4
 #     Prob-5.py
 
-# <YOUR NAME>
+# <Trevor Bromley>
 
 def main():
-    x = eval(2)
-    print("x:", x)
+    try: 
+        x = eval(2)
+        print("x:", x)
+    except TypeError:
+        print("There was a type error.")
 
 main()
